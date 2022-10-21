@@ -1,11 +1,11 @@
 accounts:
   - name: alice
-    coins: ["20000token", "200000000stake"]
+    coins: ["2000000mdc"]
   - name: bob
-    coins: ["10000token", "100000000stake"]
+    coins: ["10000mdc"]
 validator:
   name: alice
-  staked: "100000000stake"
+  staked: "1000000mdc"
 client:
   openapi:
     path: "docs/static/openapi.yml"
@@ -13,9 +13,9 @@ client:
     path: "vue/src/store"
 faucet:
   name: bob
-  coins: ["5token", "100000stake"]
+  coins: ["5mdc"]
 genesis:
   app_state:
     staking:
       params:
-        bond_denom: "mdc”
+        bond_denom: "mdc"
