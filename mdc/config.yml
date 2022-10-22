@@ -15,6 +15,7 @@ faucet:
   name: bob
   coins: ["5mdc"]
 genesis:
+  chain_id: "mdc"
   app_state:
     staking:
       params:
